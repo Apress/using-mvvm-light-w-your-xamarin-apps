@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{8AD6E07A-FC23-4DB9-9A0C-AA1F0B7B407C}|Default">
+  <MonoDevelop.Ide.ItemProperties.connectivity HideGettingStarted="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="connectivity/ViewModel/BaseViewModel.cs">
+    <Files>
+      <File FileName="connectivity/ViewModelLocator.cs" Line="1" Column="30" />
+      <File FileName="connectivity/ViewModel/MainViewModel.cs" Line="3" Column="26" />
+      <File FileName="iOS/AppDelegate.cs" Line="47" Column="53" />
+      <File FileName="iOS/ViewController.cs" Line="25" Column="62" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="Droid/MainActivity.cs" Line="32" Column="52" />
+      <File FileName="Droid/Resources/values/Strings.xml" Line="5" Column="13" />
+      <File FileName="Droid/App.cs" Line="34" Column="54" />
+      <File FileName="Droid/MainActivity.ui.cs" Line="7" Column="25" />
+      <File FileName="connectivity/ViewModel/BaseViewModel.cs" Line="5" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PFJ/Dropbox (Personal)/mvvm book/Chapter 4 - Adding functionality/Source/connectivity/iOS/ViewController.cs" relfile="iOS/ViewController.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.connectivity.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.connectivity.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9173528F-4DA4-4A6E-A714-5C0DAD96A9C5" />
+</Properties>

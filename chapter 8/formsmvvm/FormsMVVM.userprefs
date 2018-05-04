@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{DB79BE2E-8181-4BF9-AED1-657F1298DA97}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FormsMVVM.Droid PreferredExecutionTarget="Android.3300bbd22409536f" />
+</Properties>

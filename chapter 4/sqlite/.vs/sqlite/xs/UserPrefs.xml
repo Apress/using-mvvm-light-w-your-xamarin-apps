@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{E3F7D97A-DF93-4997-875C-6364DD7A867B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Interfaces/SQLiteConnectionFactory.cs">
+    <Files>
+      <File FileName="iOS/AppDelegate.cs" Line="48" Column="13" />
+      <File FileName="iOS/ViewControllers/AddHobbies.cs" Line="47" Column="10" />
+      <File FileName="iOS/ViewControllers/AddPets.cs" Line="26" Column="10" />
+      <File FileName="iOS/ViewControllers/ViewController.cs" Line="51" Column="13" />
+      <File FileName="iOS/ViewControllers/ViewData.cs" Line="11" Column="9" />
+      <File FileName="iOS/Helpers/PickerDataModel.cs" Line="17" Column="23" />
+      <File FileName="Droid/Activities/MainActivity.cs" Line="11" Column="83" />
+      <File FileName="Droid/Activities/DataPage.cs" Line="1" Column="1" />
+      <File FileName="Droid/Activities/GeneralInfoPage.cs" Line="27" Column="1" />
+      <File FileName="Droid/Activities/GeneralInfoPage.UI.cs" Line="10" Column="9" />
+      <File FileName="SQLite/ViewModel/ShowDataViewModel.cs" Line="1" Column="1" />
+      <File FileName="SQLite/ViewModel/MainViewModel.cs" Line="34" Column="10" />
+      <File FileName="SQLite/ViewModelLocator.cs" Line="22" Column="13" />
+      <File FileName="SQLite/Interfaces/IRepository.cs" Line="1" Column="1" />
+      <File FileName="SQLite/Helpers/DBHelper.cs" Line="1" Column="1" />
+      <File FileName="Droid/App.cs" Line="35" Column="97" />
+      <File FileName="SQLite/ViewModel/AddHobbiesViewModel.cs" Line="1" Column="1" />
+      <File FileName="SQLite/ViewModel/AddPetViewModel.cs" Line="1" Column="1" />
+      <File FileName="iOS/Interfaces/SQLiteConnectionFactory.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PFJ/Dropbox (Personal)/mvvm book/Chapter 4 - Adding functionality/Source/SQLite/SQLite/ViewModel/MainViewModel.cs" relfile="SQLite/ViewModel/MainViewModel.cs" line="20" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SQLite.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SQLite.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.862E782F-CEFA-4078-BC42-52CABEADCCDE" />
+</Properties>

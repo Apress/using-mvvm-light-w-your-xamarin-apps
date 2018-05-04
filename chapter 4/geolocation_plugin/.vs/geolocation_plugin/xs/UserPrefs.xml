@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{7F7B72BB-BF65-462B-BBA9-604A58F84395}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+    <Files>
+      <File FileName="geolocation_plugin/ViewModelLocator.cs" Line="2" Column="1" />
+      <File FileName="geolocation_plugin/ViewModel/MainViewModel.cs" Line="42" Column="1" />
+      <File FileName="geolocation_plugin/Interfaces/IGeolocation.cs" Line="8" Column="9" />
+      <File FileName="geolocation_plugin/Models/Geolocation.cs" Line="4" Column="25" />
+      <File FileName="iOS/ViewController.cs" Line="79" Column="56" />
+      <File FileName="Droid/Activities/MainActivity.UI.cs" Line="16" Column="6" />
+      <File FileName="Droid/Activities/MainActivity.cs" Line="8" Column="34" />
+      <File FileName="Droid/App.cs" Line="34" Column="21" />
+      <File FileName="Droid/Services/Geolocation.cs" Line="43" Column="10" />
+      <File FileName="iOS/Services/GeoLocation.cs" Line="4" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="41" Column="71" />
+      <File FileName="iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.geolocation__plugin.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PFJ/Dropbox (Personal)/mvvm book/Chapter 4 - Adding functionality/Source/geolocation_plugin/geolocation_plugin/ViewModel/MainViewModel.cs" relfile="geolocation_plugin/ViewModel/MainViewModel.cs" line="42" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.geolocation__plugin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31C581D1-1DDA-4985-A517-430063DB33CC" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.geolocation__plugin HideGettingStarted="True" />
+</Properties>

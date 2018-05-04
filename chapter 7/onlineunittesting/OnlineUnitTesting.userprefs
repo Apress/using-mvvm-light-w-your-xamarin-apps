@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{F29FFB87-44F8-4257-8945-29593F6708DC}|Default">
+  <MonoDevelop.Ide.ItemProperties.OnlineUnitTesting.Android PreferredExecutionTarget="Android.192.168.66.102:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTests/TestConnection.cs">
+    <Files>
+      <File FileName="UnitTests/TestConnection.cs" Line="18" Column="1" />
+      <File FileName="OnlineUnitTesting/OnlineUnitTesting/ViewModelLocator.cs" Line="30" Column="23" />
+      <File FileName="OnlineUnitTesting/OnlineUnitTesting/Interfaces/IConnection.cs" Line="2" Column="1" />
+      <File FileName="OnlineUnitTesting/OnlineUnitTesting/Interfaces/IWebAPI.cs" Line="5" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.OnlineUnitTesting HideGettingStarted="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

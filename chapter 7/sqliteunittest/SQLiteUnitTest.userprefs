@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{BBA32FC2-6DAC-4162-929B-EB66764907CA}|Default">
+  <MonoDevelop.Ide.ItemProperties.SQLiteUnitTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.53FD5918-40EE-4B60-897E-77BC157DF193" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTests/DataEntryUnitTest.cs">
+    <Files>
+      <File FileName="UnitTests/Test.cs" Line="94" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="34" Column="13" />
+      <File FileName="iOS/Injected/SQLConnectionFactory.cs" Line="25" Column="52" />
+      <File FileName="SQLiteUnitTest/Interfaces/ISQConnection.cs" Line="5" Column="36" />
+      <File FileName="SQLiteUnitTest/Database/DBHelper.cs" Line="82" Column="13" />
+      <File FileName="SQLiteUnitTest/Interfaces/IRepository.cs" Line="3" Column="25" />
+      <File FileName="Droid/Injected/SQLConnection.cs" Line="6" Column="30" />
+      <File FileName="Droid/App.cs" Line="22" Column="16" />
+      <File FileName="SQLiteUnitTest/ViewModelLocator.cs" Line="32" Column="13" />
+      <File FileName="Droid/Views/MainView.cs" Line="17" Column="12" />
+      <File FileName="UnitTests/DataEntryUnitTest.cs" Line="8" Column="1" />
+      <File FileName="SQLiteUnitTest/Models/DataEntry.cs" Line="17" Column="111" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnListen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start listening" />
+    <TextView
+        android:text="Location data"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="8dp" />
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Latitude"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView11" />
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/txtLat"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:text="degrees"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/textView17" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Longitude"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView12" />
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/txtLong"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:text="degrees"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/textView20" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Altitude"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView12" />
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/txtAlt"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:text="m"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/textView20" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Speed"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView13" />
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/txtSpeed"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:text="km/h"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/textView21" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Heading"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView13" />
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/txtHeading"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/textView21" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

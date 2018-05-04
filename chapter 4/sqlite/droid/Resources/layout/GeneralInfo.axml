@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout8"
+            android:layout_weight=".5">
+            <TextView
+                android:text="Curent ID"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView7"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtID"
+                android:layout_marginRight="4dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout9"
+            android:layout_weight=".5">
+            <TextView
+                android:text="Total in DB"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView10"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtTotal"
+                android:layout_marginRight="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editName"
+            android:layout_marginRight="4dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:text="Address 1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+        <EditText
+            android:inputType="textPostalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editAddress1"
+            android:layout_marginRight="4dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+        <TextView
+            android:text="Address 2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+        <EditText
+            android:inputType="textPostalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editAddress2"
+            android:layout_marginRight="4dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5">
+        <TextView
+            android:text="Address 3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView4"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+        <EditText
+            android:inputType="textPostalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editAddress3"
+            android:layout_marginRight="4dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6">
+        <TextView
+            android:text="Postcode"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+        <EditText
+            android:inputType="textPostalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editPostcode"
+            android:layout_marginRight="4dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout7">
+        <TextView
+            android:text="Email Address"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView6"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editEmail"
+            android:layout_marginRight="4dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout10">
+        <TextView
+            android:text="Mobile"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView11"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+        <EditText
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editMobile"
+            android:layout_marginRight="4dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout11"
+        android:weightSum="1"
+        android:layout_marginTop="16dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout12"
+            android:layout_weight=".3"
+            android:gravity="center_horizontal">
+            <Button
+                android:text="Add Pet"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btnAddPet" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout13"
+            android:layout_weight=".3"
+            android:gravity="center_horizontal">
+            <Button
+                android:text="Add Hobby"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btnHobby" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout14"
+            android:layout_weight=".3"
+            android:gravity="center_horizontal">
+            <Button
+                android:text="Commit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btnCommit" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
