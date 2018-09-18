@@ -1,0 +1,32 @@
+﻿<Properties StartupItem="FootballCards_01/FootballCards_01.iOS/FootballCards_01.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FootballCards_01/FootballCards_01.Droid/MainActivity.cs">
+    <Files>
+      <File FileName="FootballCards_01/FootballCards_01/Model/Cards.cs" Line="3" Column="5" />
+      <File FileName="FootballCards_01/FootballCards_01/Helpers/Teams.cs" Line="3" Column="1" />
+      <File FileName="FootballCards_01/FootballCards_01/ViewModel/MainViewModel.cs" Line="42" Column="60" />
+      <File FileName="FootballCards_01/FootballCards_01/Helpers/Shuffle.cs" Line="20" Column="45" />
+      <File FileName="FootballCards_01/FootballCards_01.Droid/MainActivity.cs" Line="31" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FootballCards_01" expanded="True">
+            <Node name="FootballCards_01" expanded="True">
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="FootballCards_01.Droid" expanded="True">
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FootballCards__01.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+  <MonoDevelop.Ide.ItemProperties.FootballCards__01.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+</Properties>

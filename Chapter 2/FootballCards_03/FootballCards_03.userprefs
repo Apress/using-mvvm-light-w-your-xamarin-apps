@@ -1,0 +1,31 @@
+﻿<Properties StartupItem="FootballCards_03/FootballCards_03.iOS/FootballCards_03.iOS.csproj" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FootballCards_03/FootballCards_03.WinPhone/MapPage.xaml.cs">
+    <Files>
+      <File FileName="FootballCards_03/FootballCards_03.iOS/ViewController.cs" Line="28" Column="38" />
+      <File FileName="FootballCards_03/FootballCards_03.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="FootballCards_03/FootballCards_03/Helpers/Shuffle.cs" Line="1" Column="1" />
+      <File FileName="FootballCards_03/FootballCards_03/Model/SmallCard.cs" Line="1" Column="1" />
+      <File FileName="FootballCards_03/FootballCards_03.iOS/MapViewController.cs" Line="1" Column="1" />
+      <File FileName="FootballCards_03/FootballCards_03.WinPhone/MapPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FootballCards_03/FootballCards_03.WinPhone/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FootballCards_03/FootballCards_03.WinPhone/MainPage.xaml" Line="11" Column="70" />
+      <File FileName="FootballCards_03/FootballCards_03.Droid/Activities/MainActivity.UI.cs" Line="15" Column="3" />
+      <File FileName="FootballCards_03/FootballCards_03.WinPhone/MapPage.xaml" Line="1" Column="1" />
+      <File FileName="FootballCards_03/FootballCards_03.Droid/App.cs" Line="43" Column="1" />
+      <File FileName="FootballCards_03/FootballCards_03.WinPhone/App.xaml.cs" Line="50" Column="56" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PFJ/Dropbox/mvvm book/Chapter 2 - your first MVVM application/Source/FootballCards_03/FootballCards_03/FootballCards_03/ViewModel/MainViewModel.cs" line="155" column="1" />
+      <Breakpoint file="/Users/PFJ/Dropbox/mvvm book/Chapter 2 - your first MVVM application/Source/FootballCards_03/FootballCards_03/FootballCards_03.Droid/Activities/MainActivity.cs" line="17" column="1" />
+      <Breakpoint traceExpression="{App.Locator.Map}" file="/Users/PFJ/Dropbox/mvvm book/Chapter 2 - your first MVVM application/Source/FootballCards_03/FootballCards_03/FootballCards_03.Droid/Activities/MainActivity.cs" line="11" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FootballCards__02.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.64.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.FootballCards__03.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.64.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.FootballCards__02.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.ItemProperties.FootballCards__03.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.25CC6FD5-40D5-4CAE-87B6-7F38A31B4E83" />
+</Properties>

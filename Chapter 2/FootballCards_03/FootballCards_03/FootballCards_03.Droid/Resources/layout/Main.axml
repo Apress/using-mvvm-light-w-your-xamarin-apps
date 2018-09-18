@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_weight=".6"
+        android:gravity="center_vertical">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:stretchColumns="1"
+            android:shrinkColumns="2">
+            <TableRow
+                android:id="@+id/tableRow1">
+                <TextView
+                    android:text="Team name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView12"
+                    android:layout_marginRight="8dp" />
+                <TextView
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/txtTeamName" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2">
+                <TextView
+                    android:text="Stadium"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView13" />
+                <TextView
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/txtStadium" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3">
+                <TextView
+                    android:text="Capacity"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView14" />
+                <TextView
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/txtCapacity" />
+            </TableRow>
+        </TableLayout>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:id="@+id/space1" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:text="Number of shuffles"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView21"
+                android:layout_marginRight="8dp"
+                android:gravity="start"
+                android:layout_gravity="center_vertical" />
+            <EditText
+                android:inputType="number"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:id="@+id/editShuffles"
+                android:numeric="integer"
+                android:maxLength="10" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:text="Shuffle teams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShuffle" />
+    <Button
+        android:text="Show Map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShowMap" />
+</LinearLayout>

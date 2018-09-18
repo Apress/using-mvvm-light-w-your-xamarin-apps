@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="FootballCards_02/FootballCards_02.iOS/FootballCards_02.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FootballCards_02/FootballCards_02/Helpers/Shuffle.cs">
+    <Files>
+      <File FileName="FootballCards_02/FootballCards_02.Droid/MainActivity.cs" Line="40" Column="28" />
+      <File FileName="FootballCards_02/FootballCards_02.Droid/MainActivity.UI.cs" Line="17" Column="35" />
+      <File FileName="FootballCards_02/FootballCards_02.Droid/Model/Events.cs" Line="9" Column="1" />
+      <File FileName="FootballCards_02/FootballCards_02.Droid/App.cs" Line="11" Column="1" />
+      <File FileName="FootballCards_02/FootballCards_02.iOS/AppDelegate.cs" Line="11" Column="19" />
+      <File FileName="FootballCards_02/FootballCards_02.iOS/Model/Events.cs" Line="7" Column="54" />
+      <File FileName="FootballCards_02/FootballCards_02.iOS/ViewController.cs" Line="47" Column="28" />
+      <File FileName="FootballCards_02/FootballCards_02.WinPhone/App.xaml" Line="3" Column="5" />
+      <File FileName="FootballCards_02/FootballCards_02.WinPhone/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="FootballCards_02/FootballCards_02.WinPhone/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FootballCards_02/FootballCards_02/ViewModelLocator.cs" Line="35" Column="2" />
+      <File FileName="FootballCards_02/FootballCards_02/Helpers/Shuffle.cs" Line="27" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FootballCards__02.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.64.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.FootballCards__02.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C4FD7442-65CE-492F-8FA3-48677D50D7ED" />
+</Properties>
