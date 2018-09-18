@@ -1,0 +1,75 @@
+﻿<Page
+    x:Class="TimeOfDeath.WinPhone.Views.TimeTemp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TimeOfDeath.WinPhone.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" 
+    DataContext="{Binding TimeTemp, Source={StaticResource Locator}}" 
+    >
+
+    <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="8,16" DataContext="{Binding Source={StaticResource Locator}}">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Orientation="Vertical" Grid.Column="0" HorizontalAlignment="Center">
+                    <TextBlock Text="Enter date the body was found" />
+                    <DatePicker x:Name="datePicker"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Grid.Column="1" Margin="16,0" HorizontalAlignment="Center">
+                    <TextBlock Text="Enter date the body was found" />
+                    <TimePicker x:Name="timePicker"/>
+                </StackPanel>
+
+            </Grid>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Margin="0,16">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="270" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center">
+                    <TextBlock Text="What temperature was the body when found (deg C)"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1"  Grid.Row="0" >
+                    <TextBox InputScope="Number" Text="{Binding TempBody}"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1"  VerticalAlignment="Center">
+                    <TextBlock Text="What temperature were the surrounds (deg C)"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Grid.Row="1" >
+                    <TextBox InputScope="Number" Text="{Binding TempSurround}" />
+                </StackPanel>
+
+            </Grid>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+            <Grid Width="383">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="What was the weight of the body" Grid.Column="0" VerticalAlignment="Center"/>
+                <TextBox InputScope="Number" Grid.Column="1" Text="{Binding BodyWeight}" />
+                <CheckBox Grid.Column="2" Content="in KG" IsChecked="{Binding InKilos}" Width="83" />
+            </Grid>
+
+        </StackPanel>
+    </StackPanel>
+</Page>

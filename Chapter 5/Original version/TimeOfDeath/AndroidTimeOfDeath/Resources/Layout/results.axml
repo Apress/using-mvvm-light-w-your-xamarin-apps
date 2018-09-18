@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+android:id="@+id/conditionsTable"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <TableRow
+  android:id="@+id/resultsRow1"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+>
+    <TextView
+    android:id="@+id/deathOccuredLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/deathon"/>
+    <TextView
+    android:id="@+id/timeResults"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/unknown"/>
+  </TableRow>
+  <TableRow
+  android:id="@+id/resultsRow2"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+>
+    <TextView
+    android:id="@+id/dateLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/date"/>
+    <TextView
+    android:id="@+id/dateResults"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/unknown" />
+  </TableRow>
+  <TableRow
+  android:id="@+id/resultsRow3"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+>
+  </TableRow>
+  <TableRow
+android:id="@+id/filler"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+>
+  </TableRow>
+  <TableRow
+  android:id="@+id/resultsRow4"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+>
+  </TableRow>
+</TableLayout>

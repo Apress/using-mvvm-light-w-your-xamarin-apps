@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="ApplicationName">Time Of Death</string>
+	<string name="Copyright">Copyright</string>
+	<string name="Close">Close</string>
+	<string name="bodyCondition">When found, the body was</string>
+	<string name="dateFound">Enter date the body was found</string>
+	<string name="timeFound">Time the body was found</string>
+	<string name="tempBody">What temperature was the body when found (deg C)</string>
+	<string name="tempSurround">What is the temperature of the surrounds (deg C)</string>
+	<string name="weightBody">What is the weight of the body</string>
+	<string name="inkilo">in kg?</string>
+	<string name="deathon">Death occured on or before</string>
+	<string name="unknown">unknown</string>
+	<string name="hours">hours</string>
+	<string name="date">Date :</string>
+	<string name="clearData">Clear data</string>
+	<string name="calcTOD">Calculate time of death</string>
+	<string-array name="condition">
+		<item>Dry and naked</item>
+		<item>Dry with 1-2 thin layers</item>
+		<item>Dry with 2-3 thin layers</item>
+		<item>Dry with 3-4 thin layers</item>
+		<item>Dry with 1-2 thicker layers</item>
+		<item>Dry with more thin or thicker layers</item>
+		<item>Wet and naked</item>
+		<item>Wet with 1-2 thin wet layers</item>
+		<item>Wet with 2 thicker wet layers</item>
+		<item>Wet with 2 or more thicker wet layers</item>
+	</string-array>
+	<string name="foundAir">If found in air, the air was</string>
+	<string-array name="inair">
+		<item>still</item>
+		<item>moving</item>
+		<item>unknown</item>
+	</string-array>
+	<string name="foundWater">If found in water, it was</string>
+	<string-array name="inwater">
+		<item>moving</item>
+		<item>still</item>
+		<item>pulled from the water</item>
+		<item>unknown</item>
+	</string-array>
+	<string name="fromWater">If pulled from water, the air was</string>
+	<string-array name="outwater">
+		<item>still</item>
+		<item>moving</item>
+	</string-array>
+</resources>

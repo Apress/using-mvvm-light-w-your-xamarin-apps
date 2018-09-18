@@ -1,0 +1,10 @@
+﻿using System;
+namespace TimeOfDeath.Droid
+{
+	public partial class MainActivity
+	{
+		TabHost TabHost;
+
+
+	}
+}

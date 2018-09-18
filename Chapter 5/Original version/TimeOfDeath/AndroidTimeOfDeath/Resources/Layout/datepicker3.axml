@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView 
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <AbsoluteLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+      <TextView
+          android:id="@+id/dateLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="9dp"
+          android:layout_y="14dp"
+          android:text="@string/dateFound" />
+
+      <DatePicker
+          android:id="@+id/dateDisplay"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="24dp"
+          android:layout_y="38dp" />
+
+      <TextView
+          android:id="@+id/timeFoundLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="18dp"
+          android:layout_y="174dp"
+          android:text="@string/timeFound" />
+
+      <TimePicker
+          android:id="@+id/timeFound"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="80dp"
+          android:layout_y="199dp" />
+
+      <TextView
+          android:id="@+id/tempBodyLabel"
+          android:layout_width="175dp"
+          android:layout_height="wrap_content"
+          android:layout_x="18dp"
+          android:layout_y="334dp"
+          android:text="@string/tempBody" />
+
+      <EditText
+          android:id="@+id/tempBody"
+          android:layout_width="40dp"
+          android:layout_height="36dp"
+          android:layout_x="240dp"
+          android:layout_y="334dp"
+          android:text="0"
+          android:inputType="numberDecimal" />
+
+      <TextView
+          android:id="@+id/tempSurroundLabel"
+          android:layout_width="175dp"
+          android:layout_height="wrap_content"
+          android:layout_x="18dp"
+          android:layout_y="369dp"
+          android:text="@string/tempSurround" />
+
+      <EditText
+          android:id="@+id/tempSurround"
+          android:layout_width="40dp"
+          android:layout_height="36dp"
+          android:layout_x="240dp"
+          android:layout_y="372dp"
+          android:text="0"
+          android:inputType="numberDecimal" />
+      
+      <TextView
+          android:id="@+id/weightLabel"
+          android:layout_width="180dp"
+          android:layout_height="wrap_content"
+          android:layout_x="18dp"
+          android:layout_y="428dp"
+          android:text="@string/weightBody" />
+
+      <EditText
+          android:id="@+id/weightBody"
+          android:layout_width="40dp"
+          android:layout_height="36dp"
+          android:layout_x="180dp"
+          android:layout_y="424dp"
+          android:text="0"
+          android:inputType="numberDecimal" />
+
+      <CheckBox
+          android:id="@+id/weightBodyKG"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="220dp"
+          android:layout_y="416dp"
+          android:text="@string/inkilo"
+          android:checked="true" />
+
+    </AbsoluteLayout>
+    </ScrollView>

@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="TimeOfDeath.WinPhone.Views.Conditions"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TimeOfDeath.WinPhone.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" 
+    DataContext="{Binding StateFound, Source={StaticResource Locator}}"
+    >
+    <StackPanel Orientation="Vertical" Margin="8,8">
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="When found, the body was"/>
+            <ListBox x:Name="BodyCond" ItemsSource="{Binding GetBodyLayers}" SelectionChanged="SpinnerChanged"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="0,8">
+            <TextBlock Text="If found in air, the air was"/>
+            <ListBox x:Name="FoundAir" ItemsSource="{Binding GetFoundAir}"  SelectionChanged="SpinnerChanged" />
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="0,8">
+            <TextBlock Text="If found in water, it was"/>
+            <ListBox x:Name="FoundWater" ItemsSource="{Binding GetFoundWater}" IsEnabled="{Binding InWater}"  SelectionChanged="SpinnerChanged"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="0,8">
+            <TextBlock Text="If pulled from water, the air was"/>
+            <ListBox x:Name="PulledWater" ItemsSource="{Binding GetPulledWater}"  SelectionChanged="SpinnerChanged" FontFamily="Global User Interface" />
+        </StackPanel>
+        <StackPanel Margin="0,18" HorizontalAlignment="Right">
+            <Button Content="Calculate time of death" Command="{Binding BtnCalculateResults, Mode=OneWay}"/>
+        </StackPanel>
+    </StackPanel>
+</Page>

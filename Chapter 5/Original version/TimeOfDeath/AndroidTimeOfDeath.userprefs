@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="AndroidTimeOfDeath/AndroidTimeOfDeath.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AndroidWearSquare" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AndroidTimeOfDeath/Activity1.cs">
+    <Files>
+      <File FileName="AndroidTimeOfDeath/Activity1.cs" Line="5" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AndroidTimeOfDeath AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

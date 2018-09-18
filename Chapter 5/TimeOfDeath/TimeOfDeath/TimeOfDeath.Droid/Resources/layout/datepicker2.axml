@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/widget48"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Date body was found on"
+android:layout_x="8px"
+android:layout_y="8px"/>
+<DatePicker
+android:id="@+id/widget49"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="91px"
+android:layout_y="38px"/>
+  <TextView
+  android:id="@+id/widget50"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Time body was found on"
+  android:layout_x="17px"
+  android:layout_y="208px"/>
+  <TimePicker
+  android:id="@+id/widget52"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_x="105px"
+  android:layout_y="235px"/>
+  <TextView
+  android:id="@+id/widget55"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Temperature the body was found at"
+  android:layout_x="19px"
+  android:layout_y="300px"/>
+  <TextView
+  android:id="@+id/widget56"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Temperature of the surrounds"
+  android:layout_x="20px"
+  android:layout_y="347px"/>
+  <TextView
+  android:id="@+id/widget57"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Weight of body"
+  android:layout_x="20px"
+  android:layout_y="394px"/>
+  <EditText
+  android:id="@+id/widget58"
+  android:layout_width="40px"
+  android:layout_height="33px"
+  android:text="0"
+  android:numeric="decimal"
+  android:layout_x="253px"
+  android:layout_y="295px"/>
+  <EditText
+  android:id="@+id/widget59"
+  android:layout_width="40px"
+  android:layout_height="33px"
+  android:text="0"
+  android:numeric="decimal"
+  android:layout_x="253px"
+  android:layout_y="345px"/>
+  <EditText
+  android:id="@+id/widget60"
+  android:layout_width="40px"
+  android:layout_height="33px"
+  android:text="0"
+  android:layout_x="138px"
+  android:layout_y="390px"/>
+  <CheckBox
+  android:id="@+id/widget61"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="in KG?"
+  android:checked="true"
+  android:layout_x="185px"
+  android:layout_y="383px"/>
+</AbsoluteLayout>

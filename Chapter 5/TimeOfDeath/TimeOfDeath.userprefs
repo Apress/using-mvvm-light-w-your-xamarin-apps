@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{E905DBCB-A0D0-455A-8081-1B164332C2D6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimeOfDeath/TimeOfDeath.Droid/Activities/ConditionsFragment.cs">
+    <Files>
+      <File FileName="TimeOfDeath/TimeOfDeath.Droid/Activities/MainActivity.cs" Line="21" Column="42" />
+      <File FileName="TimeOfDeath/TimeOfDeath.Droid/Activities/TimeOfDeathFragment.cs" Line="17" Column="37" />
+      <File FileName="TimeOfDeath/TimeOfDeath.Droid/Activities/ConditionsFragment.cs" Line="68" Column="1" />
+      <File FileName="TimeOfDeath/TimeOfDeath.Droid/Activities/ConditionsFragment.UI.cs" Line="6" Column="87" />
+      <File FileName="TimeOfDeath/TimeOfDeath.Droid/Activities/TimeOfDeathFragment.UI.cs" Line="13" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PFJ/Developer/mvvmbook/c6/TimeOfDeath/TimeOfDeath/TimeOfDeath.iOS/ViewControllers/StateFoundViewController.cs" relfile="TimeOfDeath/TimeOfDeath.iOS/ViewControllers/StateFoundViewController.cs" line="10" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/mvvmbook/c6/TimeOfDeath/TimeOfDeath/TimeOfDeath/Services/CalcDataService.cs" relfile="TimeOfDeath/TimeOfDeath/Services/CalcDataService.cs" line="31" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/mvvmbook/c6/TimeOfDeath/TimeOfDeath/TimeOfDeath/Services/CalcDataService.cs" relfile="TimeOfDeath/TimeOfDeath/Services/CalcDataService.cs" line="44" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/mvvmbook/c6/TimeOfDeath/TimeOfDeath/TimeOfDeath/Services/CalcDataService.cs" relfile="TimeOfDeath/TimeOfDeath/Services/CalcDataService.cs" line="49" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/mvvmbook/c6/TimeOfDeath/TimeOfDeath/TimeOfDeath/Services/CalcDataService.cs" relfile="TimeOfDeath/TimeOfDeath/Services/CalcDataService.cs" line="23" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/mvvmbook/c6/TimeOfDeath/TimeOfDeath/TimeOfDeath/ViewModel/StateFoundViewModel.cs" relfile="TimeOfDeath/TimeOfDeath/ViewModel/StateFoundViewModel.cs" line="149" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/mvvmbook/c6/TimeOfDeath/TimeOfDeath/TimeOfDeath.Droid/Activities/ConditionsFragment.cs" relfile="TimeOfDeath/TimeOfDeath.Droid/Activities/ConditionsFragment.cs" line="21" column="105" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TimeOfDeath.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.10FF6238-0F80-464B-B66A-D7CE6C91FC54" />
+  <MonoDevelop.Ide.ItemProperties.TimeOfDeath.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.66.101:5555" />
+  <MultiItemStartupConfigurations />
+</Properties>
