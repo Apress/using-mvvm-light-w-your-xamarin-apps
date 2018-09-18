@@ -1,0 +1,35 @@
+﻿<Properties StartupItem="Alert/Alert.iOS/Alert.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Alert/Alert.iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="Alert/Alert.Droid/App.cs" Line="33" Column="6" />
+      <File FileName="Alert/Alert/ViewModel/MainViewModel.cs" Line="31" Column="10" />
+      <File FileName="Alert/Alert.iOS/AppDelegate.cs" Line="46" Column="9" />
+      <File FileName="Alert/Alert.WinPhone/App.xaml.cs" Line="29" Column="73" />
+      <File FileName="Alert/Alert.WinPhone/MainPage.xaml" Line="9" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Alert" expanded="True">
+            <Node name="Alert" expanded="True">
+              <Node name="ViewModel" expanded="True" />
+            </Node>
+            <Node name="Alert.Droid" expanded="True" />
+            <Node name="Alert.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
+            <Node name="Alert.WinPhone" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
